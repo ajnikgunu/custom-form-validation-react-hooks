@@ -1,0 +1,81 @@
+.App {
+  font-family: "Montserrat", BlinkMacSystemFont, -apple-system, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+div {
+  display: block;
+}
+
+.r-checkout-component__form-row {
+  display: flex;
+  -webkit-box-orient: horizontal;
+  flex-flow: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.r-form__field {
+  position: relative;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-flow: column;
+  margin-bottom: 1rem;
+}
+
+.r-form__label {
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+.r-form__input {
+  border: 1px solid #a7a7a7;
+  position: relative;
+  display: inline-flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  -webkit-appearance: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 0.8125rem;
+  line-height: 1.42857;
+  vertical-align: top;
+  border: 1px solid #a7a7a7;
+  background-color: #fff;
+  color: #484848;
+  outline: none;
+  height: 3rem;
+  letter-spacing: 0.9px;
+  transform: translate3d(0, 0, 0);
+  abox-sizing: border-box;
+  text-rendering: auto;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+}
+
+.r-form__input.is-fullwidth {
+  width: 100%;
+}
+
+.r-form__error {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+  color: #f40103;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
